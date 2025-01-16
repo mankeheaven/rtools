@@ -1,0 +1,43 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Tauri build
+src-tauri/target
+src-tauri/Cargo.lock
+src-tauri/WixTools
+src-tauri/gen
+
+# Tauri build artifacts
+src-tauri/target/release/bundle
+src-tauri/*.dmg
+src-tauri/*.msi
+src-tauri/*.deb
+src-tauri/*.AppImage
+src-tauri/*.app
+src-tauri/*.exe
+
+# Tauri logs
+src-tauri/.cargo/config.toml
+.tauri/**/*
